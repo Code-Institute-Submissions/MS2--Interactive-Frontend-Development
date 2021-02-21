@@ -1,0 +1,13 @@
+body, html {
+    height: 100%;
+}
+
+#hero-block {
+  background: url("../images/walking.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: contain;
+  height: 300px;
+  width: 100%;
+}
