@@ -68,3 +68,5 @@ button {
 }
 
 /* ---------------------------------------------Google maps API*/
+
+div#map {min-height: 360px;}

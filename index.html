@@ -61,9 +61,36 @@
     </div>
   </div>
 </div>
-<div id="map"></div>
+<div id="map">
+<script> 
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 10,
+            center: {
+                lat: 53.3498,
+                lng: 6.2603
+            }
+        });
+        var labels = "123456789";
 
-<script></script>
+        var locations = [
+            { lat: 53.3559, lng: 6.3298 },
+            { lat: 53.3351, lng: 6.2610 },
+            { lat: 53.2694, lng: 6.1056 },
+            { lat: 53.2519, lng: 6.3303 },
+            { lat: 53.3396, lng: 6.2604 },
+            { lat: 53.2153, lng: 6.1049 }
+        ];
+
+        var markers = locations.map(function(location,i) {
+            return new google.maps.marker({
+                position: location,
+                label: label[i % labels.length]
+            });
+        });
+    }
+</script>
+</div>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUZSuECtAijka-TDOvCu_9e0JjexyLD6E&callback=initMap"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
