@@ -70,3 +70,19 @@ button {
 /* ---------------------------------------------Google maps API*/
 
 div#map {min-height: 360px;}
+
+/* ---------------------------------------------Top 6 walks*/
+
+#walkLocations {
+    background-color: #31d895;
+}
+
+.topSixHeader {
+    padding: 20px;
+    color: #212529;
+}
+
+.topSix {
+    padding: 20px;
+    color: #212529;
+}
