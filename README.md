@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://github.com/NFox13/MS2--Interactive-Frontend-Development/assets/images/logo.jpg" alt="Walking rocks logo"/>
-</p>
+
+![Walking rocks logo](assets/images/logo.jpg)
 
 # Description
 *This is a fictitious application*
@@ -39,7 +38,7 @@ HTML and CSS has been tested using W3C validator and the javascript has been tes
 
 # Technologies
 - [Bootstrap](https://getbootstrap.com/)
-- [Googlemaps API]
+- Googlemaps API
 
 # Media
 I have used different resources for images, my logo, colour scheme etc.
