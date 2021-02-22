@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://github.com/NFox13/MS2--Interactive-Frontend-Development/assets/images/logo.jpg" alt="Walking rocks logo"/>
 </p>
+
 # Description
 *This is a fictitious application*
 > Walking rocks is an app fror people who are interested in walking, to learn about walks in their location.
